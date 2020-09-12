@@ -13,21 +13,5 @@ export default new Router({
       name: 'home',
       component: Home
     },
-    {
-        path: '/setup',
-        name: 'setup',
-        component: () => import(/* webpackChunkName: "setup" */ '@/views/Setup.vue')
-    },
-    {
-      path: '/media',
-        name: 'media',
-        component: () => import(/* webpackChunkName: "setup" */ '@/views/Media.vue')
-    },
-    {
-        path: '*',
-        name: '404',
-        meta: { layout: 'no-nav' },
-        component: () => import(/* webpackChunkName: "404" */ '@/views/404.vue')
-    }
   ]
 })

@@ -3,8 +3,8 @@
   "description": "Storybook.js Vue example based on Vue-CLI-3",
   "version": "0.1.0",
   "author": {
-    "name": "I Nengah Januartha",
-    "email": "janumedia@gmail.com"
+    "name": "Junsuk Park",
+    "email": "park64kr63@gmail.com"
   },
   "license": "MIT",
   "keywords": [
@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "vue": "^2.5.21",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.1.4",
